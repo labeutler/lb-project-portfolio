@@ -10,6 +10,8 @@ N/A
 
 ## Usage
 
+https://labeutler.github.io/portfolio-challenge-2/
+
 When visiting my page, you can select one of the following tabs and go directly to the location to view more. 
 ![alt text](assets/images/Tabs.png)
 
