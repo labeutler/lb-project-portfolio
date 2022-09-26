@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,99 +8,83 @@
     <title>Laura's Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
-<!--creating header to be responsive. adding styling, color, sizing -->
+<!--creating header to be responsive. adding styling, color, sizing , made sure links were connected and worked to move lower in the page.-->
+
 <body>
     <header>
-        <a href="index.html" class="header-port"><h1>Laura's Portfolio</h1></a>
+        <a href="index.html" class="header-port">
+            <h1>Laura's Portfolio</h1>
+        </a>
         <nav>
             <ul>
                 <a href="#about.html">About Me</a>
                 <a href="#work.html">Work</a>
                 <a href="#contact.html">Contact</a>
-                <a href="#C:\Users\labeu\bootcamp\portfolio-challenge-2\assets\images\sample resume.png">Resume</a>
+                <!--created link to sample resume-->
+                <a link rel="resume" href="./assets/images/sample-resume.png">Resume</a>
             </ul>
         </nav>
     </header>
     <main>
+        <!-- Created the section to show about me and added an image to allow for people to see whom their reading about. -->
         <section class="index-banner">
             <div class="vertical-center">
                 <h2 id="about.html">About Me</h2>
-                    <h1 p>Lorem ipsum, dolor sit amet consectetur<br>
-                    adipisicing elit. Et earum, esse est pariatur<br>
-                    placeat architecto saepe temporibus ad, <br>
-                    laboriosam delectus magni natus excepturi, <br>
-                    soluta neque.</p>
+                <h1 p>Lorem ipsum, dolor sit amet<br>
+                    consectetur adipisicing elit.<br>
+                    Et earum, esse est pariatur<br>
+                    placeat architecto saepe<br> temporibus ad, laboriosam<br> delectus magni natus <br>
+                    excepturi, soluta neque.</p>
                 </h1>
             </div>
         </section>
-        <section>
-            <a href="portfolio">
+        <!-- created this section to show my work that I've completed so far.  Making this project the largest image, and linked it to itself.  All other projects are linked accordingly. -->
+        <section class="projects">
+            <a class="main-project" href="portfolio">
                 <div class="index-joblink-1">
-                    <h3>Portfolio</h3>
+                    <h3 id="work.html">Portfolio</h3>
                 </div>
             </a>
-            <a href="horiseon"> 
+            <a href="https://labeutler.github.io/horiseon-challenge-1/" alt="Link to HoriSEOn project for review.">
                 <div class="index-joblink-2">
                     <h3>HoriSEOn</h3>
                 </div>
             </a>
-            <a href="prework">
+            <a href="https://labeutler.github.io/prework-study-guide1/"
+                alt="Link to first pre-work project to for review.">
                 <div class="index-joblink-3">
                     <h3>PreWork</h3>
                 </div>
             </a>
-            <a href="coming">
+            <a>
                 <div class="index-joblink-4">
-                    <h3>Stay tuned...</h3>
-                </div>
-            </a>
-            <a href="contact">
-                <div class="index-joblink-5">
-                    <h3>Contact</h3>
+                    <h3>Still to come...</h3>
                 </div>
             </a>
         </section>
-        <section>
-                <h2 id="contact.html">Contact</h2> 
+<!-- created this section for the contact information.  Created a drop down menu to select from for ways of contacting me. -->
+        <section class="main-contacts">
+            <div>
+                <a id="contact.html"></a>
+                <ul>
+                    <li><a href="Contact">Contact</a>
                     <ul>
-                        <li><a href="place holder">Phone Number</a></li>
-                        <li><a href="place holder">Email</a></li>
-                        <li><a href="place holder">LinkedIn</a></li>    
-                        <li><a href="place holder">GitHub</a></li>
-                        <li><a href="place holder">Spotify</a></li>
-                    </ul>
-                </div>
+                    <li><a>Phone Number<br>248-555-1212</a></li>
+                    <li><a>Email<br>emailme@lovelife.com</a></li>
+                    <li><a href="https://www.linkedin.com/in/laura-beutler-92987413?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYuG75bqdTxGSyWStC8p2Hw%3D%3D">LinkedIn</a></li>
+                    <li><a href="https://github.com/">GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div>
         </section>
     </main>
+    <!-- finally the footer to state who it was created by. -->
     <footer>
         <h4>Created by Laura Beutler</h4>
         <p>
             &copy; 2022 LAB
         </p>
     </footer>
-
-    <!--
-        Header
-            Name
-                About Me
-                Work
-                Contact
-                Resume
-
-        Section
-            About me
-                lorem
-            Work
-                deployed items
-                    1 large
-                    rest small
-            Contact
-                name
-                email
-                phone
-            Resume
-                description
-    -->
-    
 </body>
 </html>
