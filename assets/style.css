@@ -137,7 +137,7 @@ nav a:hover {
   width: 100%;
   height: 200px;
   background-color: rgb(127, 172, 255);
-  background-image: url("./images/barcade1.png");
+  background-image: url("./images/MediaPhile.png");
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,13 +150,13 @@ nav a:hover {
   font-weight: 100;
   font-style: italic;
   line-height: 40px;
-  color: #021418;
+  color: whitesmoke;
   text-align: center;
   text-shadow: 2px 2px 8px #111;
   width: 175%;
   height: 150px;
   background-color: rgb(127, 172, 255);
-  background-image: url("./images/portfolio.png");
+  background-image: url("./images/barcade.png");
   background-position:center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -174,7 +174,7 @@ nav a:hover {
   text-shadow: 2px 2px 8px #111;
   width: 150%;
   height: 150px;
-  background-image: url("./images/horiseon.png");
+  background-image: url("./images/portfolio.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,7 +193,7 @@ nav a:hover {
   text-shadow: 2px 2px 8px #111;
   width: 150%;
   height: 150px;
-  background-image: url("./images/study\ guide.jfif");
+  background-image: url("./images/horiseon.png");
 }
 
 /* tag letting you know there is more to come */
